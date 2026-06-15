@@ -57,3 +57,15 @@
    - Tạo Pull Request để review và merge vào nhánh main.
 
 Hoàn thành quy trình Git cơ bản từ tạo branch → commit → push → pull request → merge.
+
+git log:
+ 
+ ![git log](screenshots/git%20log.png)
+
+ git diff:
+
+ ![git diff](screenshots/git%20diff.png)
+ 
+ git branch -a:
+
+ ![branch](screenshots/branch.png)
