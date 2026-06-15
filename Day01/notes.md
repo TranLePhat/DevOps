@@ -47,6 +47,7 @@
    - Cập nhật nội dung báo cáo trong notes.md.
    - Kiểm tra thay đổi:
         git status
+        ![git status](screenshots/git%20status.png)
    - Đẩy vào staging:
         git add .
    - Tạo commit:
