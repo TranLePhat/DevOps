@@ -1,9 +1,8 @@
 # Python Development Environment & Python Fundamentals
 
-Objective
+## Objective
 
-<<<<<<< HEAD
-Set up a Python development environment on Ubuntu VM and practice basic Python programming.
+    Set up a Python development environment on Ubuntu VM and practice basic Python programming.
 
 ## Environment Setup
 
@@ -78,6 +77,3 @@ Set up a Python development environment on Ubuntu VM and practice basic Python p
     - Sold tickets cannot exceed total seats.
     - Total seats must be greater than zero.
     - Ticket price must be greater than zero.
-=======
-Set up a Python development environment on Ubuntu VM and practice Python fundamentals through hands-on mini projects.
->>>>>>> 6092b0aef4bba790cef93954e905d5d0c8dd3cec
