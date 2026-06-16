@@ -20,7 +20,7 @@
 
     Development Workflow
 
-    ![Workflow](ScreenShots/Workflow.png)
+    ![Workflow](screenshots/Workflow.png)
 
 ## Python Basics
 
