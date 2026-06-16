@@ -19,7 +19,7 @@
         - Successfully pushed code to GitHub repository.
 
     Development Workflow
-
+'''''''''''''''''''''''''
     ![Workflow](screenshots/Workflow.png)
 
 ## Python Basics
