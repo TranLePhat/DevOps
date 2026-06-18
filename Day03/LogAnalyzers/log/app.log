@@ -1,0 +1,7 @@
+INFO Application started
+INFO Database connected
+WARNING High memory usage
+ERROR Database timeout
+ERROR Cannot connect to API
+INFO Request completed
+WARNING Disk usage is high
