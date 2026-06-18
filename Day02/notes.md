@@ -17,7 +17,6 @@
         - Generated SSH key pair.
         - Added public key to GitHub.
         - Successfully pushed code to GitHub repository.
-'''
 
 ## Development Workflow
 ![Workflow](screenshots/Workflow.png)
