@@ -1,0 +1,4 @@
+SERVER_NAME=web-server
+CPU=10
+RAM=22
+DISK=100
