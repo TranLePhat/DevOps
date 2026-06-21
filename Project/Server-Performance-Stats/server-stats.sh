@@ -17,4 +17,18 @@ echo
 echo "DISK USAGE"
 
 df -h /
-#NETWORK
+#top 5 CPU
+echo
+echo "TOP 5 CPU PROCESSES"
+
+ps -eo pid,comm,%cpu --sort=-%cpu | head -6
+#Top 5 mem process
+echo
+echo "TOP 5 MEMORY PROCESSES"
+
+ps -eo pid,comm,%mem --sort=-%mem | head -6
+#Uptime
+echo
+echo "SYSTEM UPTIME"
+
+uptime
