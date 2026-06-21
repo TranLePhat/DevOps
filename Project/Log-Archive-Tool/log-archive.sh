@@ -18,3 +18,21 @@ then
     echo "Directory does not exist!"
     exit 1
 fi
+
+ARCHIVE_DIR="archive"
+
+mkdir -p "$ARCHIVE_DIR"
+
+TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
+
+ARCHIVE_NAME="logs_archive_${TIMESTAMP}.tar.gz"
+
+tar -czf "$ARCHIVE_DIR/$ARCHIVE_NAME" "$LOG_DIR"
+
+echo $ARCHIVE_NAME
+
+echo
+echo "Archive created!"
+
+echo "$ARCHIVE_DIR/$ARCHIVE_NAME"
+
