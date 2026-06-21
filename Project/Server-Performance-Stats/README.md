@@ -17,3 +17,8 @@ Analyze basic Linux server performance metrics using Bash.
 ```bash
 chmod +x server-stats.sh
 ./server-stats.sh
+
+```
+## Output
+[!Output](screenshots/Output.png)
+
