@@ -21,6 +21,5 @@ chmod +x server-stats.sh
 ```
 ## Output
 
-[!Output](screenshots/Output.png)
-```
+![Output](screenshots/Output.png)
 
