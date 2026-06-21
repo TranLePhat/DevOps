@@ -1,5 +1,5 @@
-from github_api import get_user_data
-from report import print_report
+from GitHubCheck.github_api import get_user_data
+from GitHubCheck.report import print_report
 
 
 def main():
