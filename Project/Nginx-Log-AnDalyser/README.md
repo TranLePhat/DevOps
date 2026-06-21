@@ -19,3 +19,5 @@ chmod +x nginx-log-analyzer.sh
 
 ```
 ## Output
+
+![Output](screenshots/Output.png)
