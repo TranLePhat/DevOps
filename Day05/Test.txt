@@ -1,0 +1,8 @@
+Xin chao, toi la Le Phat
+#!/bin/bash
+# Modified by vim
+# A simple script to display a message
+# A simple script to display a message
+
+
+# A simple script to display a message
