@@ -87,8 +87,7 @@ Local Ubuntu VM
 ```bash
 ssh -i phat-key.pem ubuntu@<public-ip>
 ```
-
-
+![EC2](screenshots/EC2.png)
 
 ### Deploy Website
 
@@ -98,6 +97,8 @@ rsync -avz \
 ./website/ \
 ubuntu@<public-ip>:/tmp/website/
 ```
+![rsync](screenshots/rsync.png)
+
 
 ### Copy Files to Nginx
 
@@ -105,10 +106,13 @@ ubuntu@<public-ip>:/tmp/website/
 sudo rsync -av /tmp/website/ /var/www/html/
 sudo systemctl reload nginx
 ```
+![Nginx](screenshots/Copy%20file.png)
 
 ## Result
 
 The website is accessible through the EC2 public IP address.
+
+![Web](screenshots/output1.png)
 
 
 
