@@ -24,3 +24,8 @@ https://roadmap.sh/projects/nginx-log-analyser
 
 Project URL:
 https://roadmap.sh/projects/basic-dockerfile
+
+### Static Site Server
+
+Project URL:
+https://roadmap.sh/projects/static-site-server
