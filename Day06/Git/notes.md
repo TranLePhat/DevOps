@@ -25,14 +25,20 @@ Git solves several critical problems:
 * Supports rollback to previous versions
 * Allows parallel development using branches
 
+Without Git, teams would struggle to coordinate changes and recover from mistakes.
+
 ---
 ## 3. How Does It Work Internally?
 
 When a repository is initialized:
+
+```bash id="w3d4r7"
 git init
 ```
+
 Git creates a hidden directory:
 
+```text id="5bq5if"
 .git/
 ```
 
@@ -53,6 +59,7 @@ This means:
 
 Example:
 
+```text id="h7s7vk"
 Developer A
       ↕
 Developer B
@@ -72,14 +79,18 @@ A repository contains:
 
 Example:
 
+```bash id="yypg6s"
 git init
 ```
+
 ---
 ### Commit
 
 A commit is a snapshot of changes at a specific point in time.
 
 Example:
+
+```bash id="h6mgzj"
 git commit -m "Add monitoring script"
 ```
 
@@ -119,7 +130,6 @@ git remote -v
 ```
 
 ---
-
 ### Staging Area
 
 Changes are first added to the staging area before being committed.
@@ -141,7 +151,6 @@ Commit
 ```
 
 ---
-
 ## 5. Dependencies and Related Concepts
 
 ### File Systems
@@ -149,7 +158,6 @@ Commit
 Git tracks changes made to files and directories.
 
 ---
-
 ### Diff
 
 Git compares file versions to identify changes.
@@ -161,7 +169,6 @@ git diff
 ```
 
 ---
-
 ### Hashing
 
 Every Git object is identified by a SHA hash.
@@ -175,13 +182,11 @@ f7a9c8b...
 This guarantees data integrity.
 
 ---
-
 ### Distributed Systems
 
 Git allows repositories to be synchronized across multiple machines.
 
 ---
-
 ## 6. Common Misconceptions
 
 ### Git and GitHub Are the Same Thing
@@ -203,7 +208,6 @@ Cloud hosting platform for Git repositories
 Git works without GitHub.
 
 ---
-
 ### Commits Are Backups
 
 Partially true.
@@ -213,7 +217,6 @@ Commits are snapshots of changes, not traditional backups.
 Git is designed for version tracking, not disaster recovery.
 
 ---
-
 ### Git Automatically Prevents Conflicts
 
 Incorrect.
@@ -221,7 +224,6 @@ Incorrect.
 Git helps manage conflicts, but developers still need to resolve them manually.
 
 ---
-
 ## 7. Common Production Issues
 
 ### Direct Push to Main
@@ -243,7 +245,6 @@ Risks:
 * Difficult rollbacks
 
 ---
-
 ### Long-Lived Branches
 
 Developers keep branches for weeks or months.
@@ -262,7 +263,6 @@ Integration Hell
 ```
 
 ---
-
 ### Poor Commit Messages
 
 Bad:
@@ -281,7 +281,6 @@ Add Docker monitoring support
 ```
 
 ---
-
 ## 8. Troubleshooting Runbook
 
 ### Check Repository Status
@@ -297,7 +296,6 @@ Shows:
 * Untracked files
 
 ---
-
 ### Inspect Changes
 
 ```bash id="6frh91"
@@ -314,7 +312,6 @@ Symbols:
 ```
 
 ---
-
 ### View Commit History
 
 ```bash id="6tjj3r"
@@ -322,7 +319,6 @@ git log --oneline
 ```
 
 ---
-
 ### Identify Current Branch
 
 ```bash id="4r5m7e"
@@ -330,7 +326,6 @@ git branch
 ```
 
 ---
-
 ### Check Remote Configuration
 
 ```bash id="k3nfhw"
@@ -338,7 +333,6 @@ git remote -v
 ```
 
 ---
-
 ### Roll Back Changes
 
 Discard local modifications:
@@ -366,7 +360,6 @@ git init
 ```
 
 ---
-
 ### Step 2
 
 Create a feature branch.
@@ -376,7 +369,6 @@ git checkout -b develop
 ```
 
 ---
-
 ### Step 3
 
 Modify files.
@@ -386,7 +378,6 @@ echo "Hello Git" > app.txt
 ```
 
 ---
-
 ### Step 4
 
 Stage changes.
@@ -396,7 +387,6 @@ git add .
 ```
 
 ---
-
 ### Step 5
 
 Create a commit.
@@ -406,7 +396,6 @@ git commit -m "Initial commit"
 ```
 
 ---
-
 ### Step 6
 
 Push to remote repository.
@@ -416,7 +405,6 @@ git push origin develop
 ```
 
 ---
-
 ### Step 7
 
 Create a Pull Request.
@@ -434,7 +422,6 @@ Merge
 ```
 
 ---
-
 ## Frequently Used Commands
 
 ```bash id="pgcc98"
@@ -468,8 +455,7 @@ git remote -v
 ```
 
 ---
-
-## Git Workflow for DevOps
+## Git Workflow
 
 Recommended workflow:
 
