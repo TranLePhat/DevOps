@@ -47,14 +47,14 @@ read a
 echo "Nhap b:"
 read b
 
-If [ $a -lt $b ]
-Then
+if [ $a -lt $b ]
+then
     echo "$a nho hon $b"
-
-Elif [ $a -eq $b ]
-Then
+elif [ $a -eq $b ]
+then
     echo "$a bang $b"
-
-Else
+else
     echo "$a lon hon $b"
-Fi
+fi
+
+

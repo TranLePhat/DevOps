@@ -314,3 +314,5 @@ Benefits:
 * Easier maintenance
 
 ---
+
+https://github.com/HariSekhon/DevOps-Bash-tools
