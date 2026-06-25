@@ -13,7 +13,7 @@ services:
     networks:
       - app-net
   db:
-    image: postgres:latest
+    image: postgres:17
     environment:
       - POSTGRES_PASSWORD=mysecret
     volumes:
