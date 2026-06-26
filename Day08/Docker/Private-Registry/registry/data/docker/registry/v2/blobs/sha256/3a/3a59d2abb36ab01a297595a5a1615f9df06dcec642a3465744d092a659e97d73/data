@@ -1,0 +1,51 @@
+{
+    "mediaType": "application/vnd.oci.image.manifest.v1+json",
+    "schemaVersion": 2,
+    "config": {
+        "mediaType": "application/vnd.oci.image.config.v1+json",
+        "digest": "sha256:5a8ed2ae5e81e45e5c050c424bf99213c0e32e9d85be079c2ede7c949776a2d1",
+        "size": 6345
+    },
+    "layers": [
+        {
+            "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "digest": "sha256:38513bd7256313495cdd83b3b0915a633cfa475dc2a07072ab2c8d191020ca5d",
+            "size": 29777924
+        },
+        {
+            "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "digest": "sha256:b3ec39b36ae8c03a3e09854de4ec4aa08381dfed84a9daa075048c2e3df3881d",
+            "size": 1292953
+        },
+        {
+            "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "digest": "sha256:fc74430849022d13b0d44b8969a953f842f59c6e9d1a0c2c83d710affa286c08",
+            "size": 13884816
+        },
+        {
+            "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "digest": "sha256:ea56f685404adf81680322f152d2cfec62115b30dda481c2c450078315beb508",
+            "size": 251
+        },
+        {
+            "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "digest": "sha256:7b23d837223b98fd709c5f5eaa25f6836e0ea8d4aaa89010b7ff5b598bbeefee",
+            "size": 93
+        },
+        {
+            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "digest": "sha256:8596bfc02ac1b70ab1f3d7169ab53b339fc70e7c5271a581908e1f5ac46c4bf5",
+            "size": 157
+        },
+        {
+            "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+            "digest": "sha256:cb0c71035a1ef50ee57e1d81f7aad83595e8785c4001b8dc3f799f9c152ae619",
+            "size": 4755200
+        },
+        {
+            "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+            "digest": "sha256:7080a1d567a662641a0002377823badbcff0f20be4545d90b8f84730fea6892f",
+            "size": 263
+        }
+    ]
+}
