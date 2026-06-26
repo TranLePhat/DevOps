@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# Docker
+registry/data/
+
+# Registry secrets
+registry/domain.key
+registry/domain.crt
+registry/auth/htpasswd
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
