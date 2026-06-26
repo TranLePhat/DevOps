@@ -25,3 +25,5 @@ Build a simple monitoring stack to collect and visualize Docker container metric
 - Accessed the cAdvisor dashboard to observe real-time container resource usage.
 
 ### Output
+![1](screenshots/cadvisor.png)
+![2](screenshots/output.png)
